@@ -4,7 +4,9 @@
   "description": "A simple project layout for es6 projects using webpack and babel.",
   "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./node_modules/webpack/bin/webpack --config ./webpack.config.js",
+    "watch": "node ./node_modules/webpack/bin/webpack --watch --config ./webpack.config.js"
   },
   "author": "",
   "license": "MIT",
